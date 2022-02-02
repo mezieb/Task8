@@ -1,0 +1,131 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Robot',sans-serif;
+    font-size:1.3rem;
+    
+    
+    
+}
+.hero-container{
+    width: 100%;
+    /*max-width: 1128px;*/
+    height: 660px;
+    margin: 0 auto;
+    background-color: #F3EED9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 9em;
+}
+.hero-topText{
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+    
+}
+.hero-bottomText{
+    color: #824936;
+    font-family: 'Playfair Display', serif;
+    font-size:70px;
+    font-weight:900;
+    text-align: center;
+    margin-top: 10px;
+}
+.main-title{
+    text-align: start;
+    font-family: 'Playfair Display', serif;
+    font-size:50px;
+    font-weight: 900;
+    color: #824936;
+    
+}
+.main-container{
+    padding:3em;
+    
+   
+    
+}
+.main-content{
+    display:flex;
+}
+
+.content-text1{
+    margin-right: 5em;
+}
+.main-contentDark{
+    background-color: #222C2A;
+    color:#F3EED9 ;
+    padding:3em;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.main-contentText{
+    margin-right: 5em;
+}
+.content1-image{
+    margin-right: 5em;
+}
+.main-contentOrange{
+    background-color: #824936;
+    color: #F3EED9;
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+}
+.main-contentText2{
+    margin-right: 5em; 
+}
+.content2-image{
+    margin-right: 5em;  
+}
+@media (max-width: 1200px){
+    .main-content{
+        display: block;
+        
+      
+    }
+    .content-text1{
+        margin-right: 0.03em;
+        
+    }
+    .main-contentDark{
+        display: block; 
+    }
+    .main-contentText{
+        margin-right: 0.03em;
+    }
+    .content1-image{
+        width:100%;
+        margin-right: 0.03em;  
+    }
+    .main-contentOrange{
+        display: block; 
+    }
+    .main-contentText2{
+        margin-right: 0.03em; 
+    }
+    .content2-image{
+        width:100%;
+        margin-right: 0.03em;  
+    }
+}
+
+
+
+
+
+
+
+
+
+
